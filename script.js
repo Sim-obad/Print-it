@@ -51,7 +51,7 @@ arrow_left.addEventListener('click', () => {
 // Factorisation //
 
 function changeImageAndText(compteur){
-	image.src = "./assets/images/slideshow/"+ slides[(compteur %4)]["image"];
+	image.src = "./images/slideshow/"+ slides[(compteur %4)]["image"];
 	tagLine.innerHTML= slides[(compteur %4)]["tagLine"];
 }
 
